@@ -46,6 +46,7 @@ A console-based Student Management System built using **C++**, applying Object-O
 ---
 
 ## 📊 UML Class Diagram
+
     +----------------+
     |    Person      |
     +----------------+
@@ -94,11 +95,18 @@ A console-based Student Management System built using **C++**, applying Object-O
 ---
 
 ## 🖥️ Example Output
+
+```bash
 ============ Add Student =============
 Enter ID: 101
 Enter Name: Ali
 Enter GPA: 3.8
 Added successfully
+
+============ Enroll Course ============
+Enter Student ID: 101
+Enter Course Name: Math
+Course Added Successfully
 
 ============ Enroll Course ============
 Enter Student ID: 101
